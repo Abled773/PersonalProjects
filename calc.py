@@ -7,35 +7,6 @@ https://www.youtube.com/watch?v=Wr9VOum9Co0&t=431s
 https://www.youtube.com/watch?v=yCuVBd4N4nY
 
 '''
-def left_rsum(x_min, x_max, interval, func):#not finished
-    x = symbols("x")
-    func1 = s.sympify(func)
-    func2 = s.expand(func1)
-    print(func2)
-    delt_x = (x_max - x_min)/(interval)
-    count_x = 0
-    answer = 0
-    
-    while(count_x <= x_max):
-        answer += func2.subs(x, x_min + count_x)
-        print(answer)
-        count_x += delt_x
-    return(answer * delt_x)
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 '''
